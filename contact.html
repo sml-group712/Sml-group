@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SML Group - Liên hệ</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="min-h-screen flex flex-col">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <a href="index.html" class="nav-logo">SML Group</a>
+                    <div class="nav-links">
+                        <a href="index.html">Trang chủ</a>
+                        <a href="about.html">Giới thiệu</a>
+                        <a href="food-sector.html">Mảng thực phẩm</a>
+                        <a href="other-sectors.html">Các lĩnh vực khác</a>
+                        <a href="blog.html">Tin tức</a>
+                        <a href="contact.html">Liên hệ</a>
+                    </div>
+                    <button class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+        </header>
+
+        <main class="flex-grow">
+            <!-- Hero Banner -->
+            <section class="hero">
+                <div class="container">
+                    <h1>Liên Hệ</h1>
+                    <p>Kết nối với SML Group để được hỗ trợ và tư vấn</p>
+                </div>
+            </section>
+
+            <!-- Contact Information -->
+            <section class="py-16">
+                <div class="container">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                        <div>
+                            <h2 class="mb-6">Thông tin liên hệ</h2>
+                            <p class="mb-8">Hãy liên hệ với chúng tôi để được tư vấn và hỗ trợ về các sản phẩm và dịch vụ của SML Group. Đội ngũ chuyên viên của chúng tôi luôn sẵn sàng giải đáp mọi thắc mắc của bạn.</p>
+                            
+                            <div class="mb-6">
+                                <h3 class="text-lg font-bold mb-2">Trụ sở chính</h3>
+                                <p>123 Đường ABC, Quận XYZ<br>TP. Hồ Chí Minh, Việt Nam</p>
+                            </div>
+                            
+                            <div class="mb-6">
+                                <h3 class="text-lg font-bold mb-2">Thông tin liên lạc</h3>
+                                <p>Email: info@smlgroup.com<br>Điện thoại: (+84) 123 456 789<br>Fax: (+84) 123 456 788</p>
+                            </div>
+                            
+                            <div class="mb-6">
+                                <h3 class="text-lg font-bold mb-2">Giờ làm việc</h3>
+                                <p>Thứ Hai - Thứ Sáu: 8:00 - 17:30<br>Thứ Bảy: 8:00 - 12:00<br>Chủ Nhật: Nghỉ</p>
+                            </div>
+                            
+                            <div class="mb-6">
+                                <h3 class="text-lg font-bold mb-2">Kết nối với chúng tôi</h3>
+                                <div class="flex gap-4 mt-2">
+                                    <a href="#" class="w-10 h-10 bg-primary text-white flex items-center justify-center rounded-full">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#" class="w-10 h-10 bg-primary text-white flex items-center justify-center rounded-full">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#" class="w-10 h-10 bg-primary text-white flex items-center justify-center rounded-full">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                    <a href="#" class="w-10 h-10 bg-primary text-white flex items-center justify-center rounded-full">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <h2 class="mb-6">Gửi tin nhắn cho chúng tôi</h2>
+                            <form>
+                                <div class="mb-4">
+                                    <label for="name" class="block mb-2">Họ và tên *</label>
+                                    <input type="text" id="name" class="w-full px-4 py-2 border rounded-md" required>
+                                </div>
+                                
+                                <div class="mb-4">
+                                    <label for="email" class="block mb-2">Email *</label>
+                                    <input type="email" id="email" class="w-full px-4 py-2 border rounded-md" required>
+                                </div>
+                                
+                                <div class="mb-4">
+                                    <label for="phone" class="block mb-2">Số điện thoại</label>
+                                    <input type="tel" id="phone" class="w-full px-4 py-2 border rounded-md">
+                                </div>
+                                
+                                <div class="mb-4">
+                                    <label for="subject" class="block mb-2">Chủ đề *</label>
+                                    <select id="subject" class="w-full px-4 py-2 border rounded-md" required>
+                                        <option value="">-- Chọn chủ đề --</option>
+                                        <option value="product">Thông tin sản phẩm</option>
+                                        <option value="service">Dịch vụ khách hàng</option>
+                                        <option value="partnership">Hợp tác kinh doanh</option>
+                                        <option value="career">Cơ hội nghề nghiệp</option>
+                                        <option value="other">Khác</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="mb-4">
+                                    <label for="message" class="block mb-2">Nội dung tin nhắn *</label>
+                                    <textarea id="message" rows="5" class="w-full px-4 py-2 border rounded-md" required></textarea>
+                                </div>
+                                
+                                <div class="mb-4">
+                                    <label class="flex items-center">
+                                        <input type="checkbox" class="mr-2" required>
+                                        <span>Tôi đồng ý với <a href="#" class="text-accent">chính sách bảo mật</a> của SML Group</span>
+                                    </label>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Map Section -->
+            <section class="py-16 bg-light">
+                <div class="container">
+                    <div class="text-center mb-12">
+                        <h2>Vị trí của chúng tôi</h2>
+                        <div class="w-20 h-1 bg-secondary mx-auto"></div>
+                    </div>
+                    <div class="card-img h-96 rounded-lg">
+                        <!-- Map placeholder -->
+                        <div class="flex items-center justify-center h-full">
+                            <p>Bản đồ vị trí SML Group</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Offices -->
+            <section class="py-16">
+                <div class="container">
+                    <div class="text-center mb-12">
+                        <h2>Văn phòng đại diện</h2>
+                        <div class="w-20 h-1 bg-secondary mx-auto"></div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <!-- Office 1 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Hà Nội</h3>
+                                <p class="mb-2">456 Đường DEF, Quận GHI<br>Hà Nội, Việt Nam</p>
+                                <p class="mb-4">Điện thoại: (+84) 234 567 890<br>Email: hanoi@smlgroup.com</p>
+                                <a href="#" class="text-accent">Xem chỉ đường →</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Office 2 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Đà Nẵng</h3>
+                                <p class="mb-2">789 Đường JKL, Quận MNO<br>Đà Nẵng, Việt Nam</p>
+                                <p class="mb-4">Điện thoại: (+84) 345 678 901<br>Email: danang@smlgroup.com</p>
+                                <a href="#" class="text-accent">Xem chỉ đường →</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Office 3 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Cần Thơ</h3>
+                                <p class="mb-2">101 Đường PQR, Quận STU<br>Cần Thơ, Việt Nam</p>
+                                <p class="mb-4">Điện thoại: (+84) 456 789 012<br>Email: cantho@smlgroup.com</p>
+                                <a href="#" class="text-accent">Xem chỉ đường →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section class="py-16 bg-light">
+                <div class="container">
+                    <div class="text-center mb-12">
+                        <h2>Câu hỏi thường gặp</h2>
+                        <div class="w-20 h-1 bg-secondary mx-auto"></div>
+                    </div>
+                    <div class="max-w-3xl mx-auto">
+                        <!-- FAQ Item 1 -->
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h3 class="card-title">Làm thế nào để đặt hàng sản phẩm của SML Group?</h3>
+                                <p>Bạn có thể đặt hàng sản phẩm của SML Group thông qua các kênh phân phối chính thức của chúng tôi, bao gồm các đại lý, siêu thị và cửa hàng tiện lợi trên toàn quốc. Ngoài ra, bạn cũng có thể liên hệ trực tiếp với chúng tôi qua email hoặc điện thoại để được hỗ trợ đặt hàng.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 2 -->
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h3 class="card-title">Làm thế nào để trở thành đối tác của SML Group?</h3>
+                                <p>Để trở thành đối tác của SML Group, bạn có thể gửi thông tin đề xuất hợp tác qua email info@smlgroup.com hoặc liên hệ trực tiếp với phòng Phát triển Kinh doanh của chúng tôi. Chúng tôi sẽ xem xét đề xuất của bạn và liên hệ lại trong thời gian sớm nhất.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 3 -->
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h3 class="card-title">SML Group có cung cấp dịch vụ giao hàng không?</h3>
+                                <p>Có, SML Group cung cấp dịch vụ giao hàng cho các đơn hàng với số lượng lớn. Đối với các đơn hàng lẻ, bạn có thể mua sản phẩm của chúng tôi tại các kênh phân phối chính thức trên toàn quốc.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- FAQ Item 4 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h3 class="card-title">Làm thế nào để tôi có thể ứng tuyển vào SML Group?</h3>
+                                <p>Bạn có thể xem các vị trí tuyển dụng hiện tại của SML Group trên trang web của chúng tôi hoặc các trang tuyển dụng uy tín. Để ứng tuyển, bạn có thể gửi CV và thư xin việc đến email: hr@smlgroup.com. Chúng tôi luôn tìm kiếm những nhân tài để gia nhập đội ngũ của SML Group.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Call to Action -->
+            <section class="py-16 bg-primary text-white">
+                <div class="container text-center">
+                    <h2 class="mb-6">Bạn cần hỗ trợ ngay?</h2>
+                    <p class="text-xl mb-8 max-w-3xl mx-auto">
+                        Gọi cho chúng tôi theo số hotline để được hỗ trợ nhanh chóng
+                    </p>
+                    <div class="flex flex-col flex-md-row justify-center">
+                        <a href="tel:+84123456789" class="btn bg-accent text-white mb-4 mb-md-0 mr-md-4">
+                            <i class="fas fa-phone-alt mr-2"></i> (+84) 123 456 789
+                        </a>
+                        <a href="mailto:info@smlgroup.com" class="btn btn-outline text-white border-white hover:bg-white hover:text-primary">
+                            <i class="fas fa-envelope mr-2"></i> info@smlgroup.com
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div>
+                        <div class="footer-logo">SML Group</div>
+                        <p>Đối tác tin cậy trong lĩnh vực thực phẩm và các ngành công nghiệp khác.</p>
+                        <div class="mt-4">
+                            <a href="#" class="btn btn-outline text-white border-white py-2 px-4">
+                                <i class="fab fa-facebook-f mr-2"></i> Theo dõi
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Liên kết nhanh</h3>
+                        <div class="footer-links">
+                            <a href="index.html">Trang chủ</a>
+                            <a href="about.html">Giới thiệu</a>
+                            <a href="food-sector.html">Mảng thực phẩm</a>
+                            <a href="other-sectors.html">Các lĩnh vực khác</a>
+                            <a href="blog.html">Tin tức</a>
+                            <a href="contact.html">Liên hệ</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Sản phẩm</h3>
+                        <div class="footer-links">
+                            <a href="#">Thực phẩm đóng hộp</a>
+                            <a href="#">Thực phẩm đông lạnh</a>
+                            <a href="#">Đồ uống</a>
+                            <a href="#">Gia vị và phụ gia</a>
+                            <a href="#">Thực phẩm chức năng</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Liên hệ</h3>
+                        <p>123 Đường ABC, Quận XYZ<br>TP. Hồ Chí Minh, Việt Nam</p>
+                        <p>Email: info@smlgroup.com<br>Điện thoại: (+84) 123 456 789</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 SML Group. Tất cả các quyền được bảo lưu.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

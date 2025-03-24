@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SML Group - Tin tức & Bài viết</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="min-h-screen flex flex-col">
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <a href="index.html" class="nav-logo">SML Group</a>
+                    <div class="nav-links">
+                        <a href="index.html">Trang chủ</a>
+                        <a href="about.html">Giới thiệu</a>
+                        <a href="food-sector.html">Mảng thực phẩm</a>
+                        <a href="other-sectors.html">Các lĩnh vực khác</a>
+                        <a href="blog.html">Tin tức</a>
+                        <a href="contact.html">Liên hệ</a>
+                    </div>
+                    <button class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </nav>
+            </div>
+        </header>
+
+        <main class="flex-grow">
+            <!-- Hero Banner -->
+            <section class="hero">
+                <div class="container">
+                    <h1>Tin Tức & Bài Viết</h1>
+                    <p>Cập nhật thông tin mới nhất về SML Group và ngành thực phẩm</p>
+                </div>
+            </section>
+
+            <!-- Blog Categories -->
+            <section class="py-8">
+                <div class="container">
+                    <div class="flex flex-wrap justify-center gap-4">
+                        <a href="#" class="btn btn-outline py-2 px-4">Tất cả</a>
+                        <a href="#" class="btn btn-outline py-2 px-4">Tin tức công ty</a>
+                        <a href="#" class="btn btn-outline py-2 px-4">Sự kiện</a>
+                        <a href="#" class="btn btn-outline py-2 px-4">Công nghệ</a>
+                        <a href="#" class="btn btn-outline py-2 px-4">Thị trường</a>
+                        <a href="#" class="btn btn-outline py-2 px-4">Sản phẩm mới</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Featured Posts -->
+            <section class="py-16">
+                <div class="container">
+                    <div class="text-center mb-12">
+                        <h2>Bài viết nổi bật</h2>
+                        <div class="w-20 h-1 bg-secondary mx-auto"></div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <!-- Featured Post 1 -->
+                        <div class="card">
+                            <div class="card-img h-64">
+                                <!-- Image placeholder -->
+                            </div>
+                            <div class="card-body">
+                                <div class="flex items-center mb-2">
+                                    <span class="bg-primary text-white px-2 py-1 rounded-full text-sm">Tin tức công ty</span>
+                                    <span class="text-gray-500 text-sm ml-2">22/03/2025</span>
+                                </div>
+                                <h3 class="card-title text-xl">SML Group mở rộng thị trường xuất khẩu sang châu Âu</h3>
+                                <p class="mb-4">SML Group vừa ký kết thỏa thuận hợp tác với các đối tác tại châu Âu, mở rộng thị trường xuất khẩu các sản phẩm thực phẩm chất lượng cao...</p>
+                                <div class="flex justify-between items-center">
+                                    <div class="flex items-center">
+                                        <img src="#" alt="Author" class="w-8 h-8 rounded-full bg-gray-300">
+                                        <span class="ml-2">Nguyễn Văn A</span>
+                                    </div>
+                                    <a href="#" class="text-accent">Đọc tiếp →</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Featured Post 2 -->
+                        <div class="card">
+                            <div class="card-img h-64">
+                                <!-- Image placeholder -->
+                            </div>
+                            <div class="card-body">
+                                <div class="flex items-center mb-2">
+                                    <span class="bg-accent text-white px-2 py-1 rounded-full text-sm">Sự kiện</span>
+                                    <span class="text-gray-500 text-sm ml-2">15/03/2025</span>
+                                </div>
+                                <h3 class="card-title text-xl">SML Group tổ chức hội nghị đối tác thường niên 2025</h3>
+                                <p class="mb-4">Hội nghị đối tác thường niên 2025 của SML Group đã diễn ra thành công với sự tham gia của hơn 200 đối tác trong và ngoài nước...</p>
+                                <div class="flex justify-between items-center">
+                                    <div class="flex items-center">
+                                        <img src="#" alt="Author" class="w-8 h-8 rounded-full bg-gray-300">
+                                        <span class="ml-2">Trần Thị B</span>
+                                    </div>
+                                    <a href="#" class="text-accent">Đọc tiếp →</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Latest Posts -->
+            <section class="py-16 bg-light">
+                <div class="container">
+                    <div class="text-center mb-12">
+                        <h2>Bài viết mới nhất</h2>
+                        <div class="w-20 h-1 bg-secondary mx-auto"></div>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <!-- Post 1 -->
+                        <div class="card">
+                            <div class="card-img h-48">
+                                <!-- Image placeholder -->
+                            </div>
+                            <div class="card-body">
+                                <div class="flex items-center mb-2">
+                                    <span class="bg-secondary text-white px-2 py-1 rounded-full text-sm">Công nghệ</span>
+                                    <span class="text-gray-500 text-sm ml-2">10/03/2025</span>
+                                </div>
+                                <h3 class="card-title">SML Group ứng dụng công nghệ AI trong sản xuất thực phẩm</h3>
+                                <p class="mb-4">SML Group vừa triển khai hệ thống trí tuệ nhân tạo (AI) trong quy trình sản xuất thực phẩm, giúp tối ưu hóa năng suất và chất lượng sản phẩm...</p>
+                                <a href="#" class="text-accent">Đọc tiếp →</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 2 -->
+                        <div class="card">
+                            <div class="card-img h-48">
+                                <!-- Image placeholder -->
+                            </div>
+                            <div class="card-body">
+                                <div class="flex items-center mb-2">
+                                    <span class="bg-primary text-white px-2 py-1 rounded-full text-sm">Thị trường</span>
+                                    <span class="text-gray-500 text-sm ml-2">05/03/2025</span>
+                                </div>
+                                <h3 class="card-title">Xu hướng tiêu dùng thực phẩm năm 2025</h3>
+                                <p class="mb-4">Báo cáo mới nhất về xu hướng tiêu dùng thực phẩm năm 2025 cho thấy người tiêu dùng ngày càng quan tâm đến các sản phẩm thực phẩm hữu cơ và bền vững...</p>
+                                <a href="#" class="text-accent">Đọc tiếp →</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 3 -->
+                        <div class="card">
+                            <div class="card-img h-48">
+                                <!-- Image placeholder -->
+                            </div>
+                            <div class="card-body">
+                                <div class="flex items-center mb-2">
+                                    <span class="bg-accent text-white px-2 py-1 rounded-full text-sm">Sản phẩm mới</span>
+                                    <span class="text-gray-500 text-sm ml-2">01/03/2025</span>
+                                </div>
+                                <h3 class="card-title">SML Group ra mắt dòng sản phẩm thực phẩm hữu cơ mới</h3>
+                                <p class="mb-4">SML Group vừa chính thức ra mắt dòng sản phẩm thực phẩm hữu cơ mới, đáp ứng nhu cầu ngày càng tăng của người tiêu dùng về các sản phẩm thực phẩm sạch và an toàn...</p>
+                                <a href="#" class="text-accent">Đọc tiếp →</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 4 -->
+                        <div class="card">
+                            <div class="card-img h-48">
+                                <!-- Image placeholder -->
+                            </div>
+                            <div class="card-body">
+                                <div class="flex items-center mb-2">
+                                    <span class="bg-primary text-white px-2 py-1 rounded-full text-sm">Tin tức công ty</span>
+                                    <span class="text-gray-500 text-sm ml-2">25/02/2025</span>
+                                </div>
+                                <h3 class="card-title">SML Group nhận giải thưởng Doanh nghiệp xuất sắc năm 2024</h3>
+                                <p class="mb-4">SML Group vinh dự nhận giải thưởng Doanh nghiệp xuất sắc năm 2024 trong lĩnh vực thực phẩm, ghi nhận những đóng góp tích cực của công ty cho ngành công nghiệp thực phẩm Việt Nam...</p>
+                                <a href="#" class="text-accent">Đọc tiếp →</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 5 -->
+                        <div class="card">
+                            <div class="card-img h-48">
+                                <!-- Image placeholder -->
+                            </div>
+                            <div class="card-body">
+                                <div class="flex items-center mb-2">
+                                    <span class="bg-secondary text-white px-2 py-1 rounded-full text-sm">Công nghệ</span>
+                                    <span class="text-gray-500 text-sm ml-2">20/02/2025</span>
+                                </div>
+                                <h3 class="card-title">SML Group đầu tư vào công nghệ bao bì thân thiện với môi trường</h3>
+                                <p class="mb-4">SML Group vừa công bố kế hoạch đầu tư vào công nghệ bao bì thân thiện với môi trường, góp phần giảm thiểu tác động đến môi trường và thúc đẩy phát triển bền vững...</p>
+                                <a href="#" class="text-accent">Đọc tiếp →</a>
+                            </div>
+                        </div>
+                        
+                        <!-- Post 6 -->
+                        <div class="card">
+                            <div class="card-img h-48">
+                                <!-- Image placeholder -->
+                            </div>
+                            <div class="card-body">
+                                <div class="flex items-center mb-2">
+                                    <span class="bg-accent text-white px-2 py-1 rounded-full text-sm">Sự kiện</span>
+                                    <span class="text-gray-500 text-sm ml-2">15/02/2025</span>
+                                </div>
+                                <h3 class="card-title">SML Group tham gia Hội chợ Thực phẩm Quốc tế 2025</h3>
+                                <p class="mb-4">SML Group sẽ tham gia Hội chợ Thực phẩm Quốc tế 2025 diễn ra tại TP. Hồ Chí Minh từ ngày 10-15/04/2025, giới thiệu các sản phẩm mới và tìm kiếm cơ hội hợp tác...</p>
+                                <a href="#" class="text-accent">Đọc tiếp →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center mt-8">
+                        <nav class="flex items-center">
+                            <a href="#" class="px-3 py-1 border rounded-l-md">Trước</a>
+                            <a href="#" class="px-3 py-1 border bg-primary text-white">1</a>
+                            <a href="#" class="px-3 py-1 border">2</a>
+                            <a href="#" class="px-3 py-1 border">3</a>
+                            <a href="#" class="px-3 py-1 border rounded-r-md">Sau</a>
+                        </nav>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Newsletter -->
+            <section class="py-16">
+                <div class="container">
+                    <div class="max-w-3xl mx-auto bg-primary text-white rounded-lg p-8">
+                        <div class="text-center mb-6">
+                            <h2 class="text-white">Đăng ký nhận tin</h2>
+                            <p>Đăng ký để nhận thông tin mới nhất về SML Group và các sản phẩm của chúng tôi</p>
+                        </div>
+                        <form class="flex flex-col md:flex-row gap-4">
+                            <input type="email" placeholder="Nhập email của bạn" class="flex-grow px-4 py-2 rounded-md text-gray-700">
+                            <button type="submit" class="bg-accent text-white px-6 py-2 rounded-md">Đăng ký</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div>
+                        <div class="footer-logo">SML Group</div>
+                        <p>Đối tác tin cậy trong lĩnh vực thực phẩm và các ngành công nghiệp khác.</p>
+                        <div class="mt-4">
+                            <a href="#" class="btn btn-outline text-white border-white py-2 px-4">
+                                <i class="fab fa-facebook-f mr-2"></i> Theo dõi
+                            </a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Liên kết nhanh</h3>
+                        <div class="footer-links">
+                            <a href="index.html">Trang chủ</a>
+                            <a href="about.html">Giới thiệu</a>
+                            <a href="food-sector.html">Mảng thực phẩm</a>
+                            <a href="other-sectors.html">Các lĩnh vực khác</a>
+                            <a href="blog.html">Tin tức</a>
+                            <a href="contact.html">Liên hệ</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Sản phẩm</h3>
+                        <div class="footer-links">
+                            <a href="#">Thực phẩm đóng hộp</a>
+                            <a href="#">Thực phẩm đông lạnh</a>
+                            <a href="#">Đồ uống</a>
+                            <a href="#">Gia vị và phụ gia</a>
+                            <a href="#">Thực phẩm chức năng</a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Liên hệ</h3>
+                        <p>123 Đường ABC, Quận XYZ<br>TP. Hồ Chí Minh, Việt Nam</p>
+                        <p>Email: info@smlgroup.com<br>Điện thoại: (+84) 123 456 789</p>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 SML Group. Tất cả các quyền được bảo lưu.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
